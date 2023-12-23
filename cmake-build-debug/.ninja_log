@@ -1,0 +1,6 @@
+# ninja log v5
+0	112	7250064349450468	CMakeFiles/Mercado.dir/auth.c.obj	281ebfdb5649df0e
+3	113	7250064349500478	CMakeFiles/Mercado.dir/user.c.obj	e1523f41e5bce19e
+8	114	7250064349500478	CMakeFiles/Mercado.dir/screens.c.obj	58659d26691b759e
+7	114	7250064349500478	CMakeFiles/Mercado.dir/product.c.obj	f47803f9d47eca5e
+4	114	7250064349511351	CMakeFiles/Mercado.dir/main.c.obj	78c27bc740e8bbae
