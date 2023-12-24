@@ -79,6 +79,12 @@ build CMakeFiles/Mercado.dir/screens.c.obj: C_COMPILER__Mercado_unscanned_Debug 
   OBJECT_DIR = CMakeFiles\Mercado.dir
   OBJECT_FILE_DIR = CMakeFiles\Mercado.dir
 
+build CMakeFiles/Mercado.dir/order.c.obj: C_COMPILER__Mercado_unscanned_Debug D$:/Programação/C/Mercado/order.c || cmake_object_order_depends_target_Mercado
+  DEP_FILE = CMakeFiles\Mercado.dir\order.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Mercado.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mercado.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Mercado
@@ -87,7 +93,7 @@ build CMakeFiles/Mercado.dir/screens.c.obj: C_COMPILER__Mercado_unscanned_Debug 
 #############################################
 # Link the executable Mercado.exe
 
-build Mercado.exe: C_EXECUTABLE_LINKER__Mercado_Debug CMakeFiles/Mercado.dir/main.c.obj CMakeFiles/Mercado.dir/auth.c.obj CMakeFiles/Mercado.dir/user.c.obj CMakeFiles/Mercado.dir/product.c.obj CMakeFiles/Mercado.dir/screens.c.obj
+build Mercado.exe: C_EXECUTABLE_LINKER__Mercado_Debug CMakeFiles/Mercado.dir/main.c.obj CMakeFiles/Mercado.dir/auth.c.obj CMakeFiles/Mercado.dir/user.c.obj CMakeFiles/Mercado.dir/product.c.obj CMakeFiles/Mercado.dir/screens.c.obj CMakeFiles/Mercado.dir/order.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Mercado.dir

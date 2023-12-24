@@ -8,6 +8,6 @@
 #include "product.h"
 
 int all_products(Product *products, int size);
-void one_product(Product product);
+void one_product(Product product, int userId);
 
 #endif //MERCADO_SCREENS_H

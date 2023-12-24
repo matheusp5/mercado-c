@@ -4,8 +4,11 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
 #include "screens.h"
 #include "product.h"
+#include "order.h"
 
 int all_products(Product *products, int size) {
     printf("\n\tTodos os Produtos\n\n");
@@ -17,10 +20,13 @@ int all_products(Product *products, int size) {
     return id;
 }
 
-void one_product(Product product) {
+void one_product(Product product, int userId) {
     system("cls");
     printf("\n\t\t%s #%d\n", product.name, product.id);
     printf("\n\t%s\n", product.description);
-    printf("\n\t%.2f\n", product.price);
-    getchar();
+    printf("\tR$ %.2f\n", product.price);
+    string choose = get_string("\n\tDeseja comprar? (S/N) ");
+    if(strcmp(choose, "S") == 0) {
+        order_factory(product.id, userId);
+    }
 }
